@@ -136,5 +136,26 @@
 
 		<nav id="nav" role="navigation">
 			<?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
+            
+            <h1>this is the navigation</h1>
+            <h1>this is the navigation</h1>
+            <h1>this is the navigation</h1>
+            
 		</nav>
 
+<style>
+
+    header {
+        width: 100%;
+        height: 50px;
+        background: rgba(0,0,0,1.0);
+        position: fixed;
+        top: 0;
+    }
+    nav {
+        width: 300px;
+        height: 100%;
+        background: rgba(255,0,0,0.1);
+    }
+        
+</style>
